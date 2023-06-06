@@ -1,0 +1,54 @@
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: fuchsia;
+    font-size: 24px;
+}
+
+.titulo:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkolivegreen;
+    font-size: 48px;
+}
+
+.bodytext {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 24px;
+}
+
+.bodytext:hover {
+    padding: 48px;
+    background-color: white;
+}
+
+.botao {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    background-color: blueviolet;
+}
+
+.botao:hover {
+    background-color: pink;
+}
+
+.botao:active {
+    background-color: chocolate;
+}
+
+.radio {
+    background-color: brown;
+}
+
+.radio:hover {
+    background-color: blueviolet;
+}
+
+.titulo , .bodytext {
+    background-color: pink;
+}
+.parag:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parag:not(.diferente) {
+    font-size: 32px;
+    color: blueviolet;
+}

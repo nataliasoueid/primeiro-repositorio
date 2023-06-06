@@ -1,0 +1,19 @@
+.caixa {
+    background-color: rgb(139, 139, 254);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    height:200px;
+    overflow:scroll
+}
+.novaCaixa {
+    border: dotted 5px blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 5px 8px;
+    padding: 6px 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: scroll;
+}
+.titulo {
+    font-size: 40px;
+}
