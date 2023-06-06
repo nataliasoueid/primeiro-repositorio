@@ -1,0 +1,27 @@
+.primeiro {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transform: rotate(30deg);
+    transition: width 4s, height 2s;
+}
+.primeiro:hover {
+    width: 200px;
+    height: 400px;
+    background-color: darkblue;
+}
+
+.segundo {
+    width: 100px;
+    height: 100px;
+    background-image:linear-gradient(to bottom, blue, green, purple);
+    transform:translate(200px,300px);
+
+}
+
+.terceiro {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(pink,violet,purple);
+    transform: skew(30deg);
+}
